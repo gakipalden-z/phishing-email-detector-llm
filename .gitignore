@@ -1,6 +1,6 @@
-backend/node_modules/
-backend/.env
-backend/dist/
+backend-server/node_modules/
+backend-server/.env
+backend-server/dist/
 
 client/node_modules/
 client/.env
