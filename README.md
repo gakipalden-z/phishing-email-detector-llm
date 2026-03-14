@@ -63,8 +63,12 @@ phishing-email-detector-llm
 │
 ├── docs/                   # Project documentation
 │
+|
+├── server                  #APi and server logic
+|
+|
 ├── README.md
-└── requirements.txt
+└── .gitignore
 ````
 
 ---
@@ -74,7 +78,7 @@ phishing-email-detector-llm
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/phishing-email-detector-llm.git
+git clone https://github.com/gakipalden-z/phishing-email-detector-llm.git
 cd phishing-email-detector-llm
 ```
 
