@@ -6,3 +6,5 @@
 ./mobile/node_modules
 ./mobile/env
 ./.vscode
+./model/venv
+./model/__pycache__
