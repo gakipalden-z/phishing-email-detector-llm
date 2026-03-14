@@ -24,7 +24,7 @@ The main objectives of this project are:
 
 ### Programming Languages
 - Python
-- JavaScript
+- JavaScript & typescript
 
 ### Frameworks and Libraries
 - Flask (Backend API)
@@ -161,10 +161,10 @@ The final system will provide:
 
 | Name           | Student ID |
 | -------------- | ---------- |
-| Tashi Namgay   | CIHE241207 |
-| Gaki Palden    | CIHE240539 |
-| Melam Rabzang  | CIHE240648 |
-| Tandin Wangyel | CIHE240943 |
+| Tashi Namgay   |            |
+| Gaki Palden    |            |
+| Melam Rabzang  |            |
+| Tandin Wangyel |            |
 
 ---
 
