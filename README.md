@@ -61,9 +61,121 @@ phishing-email-detector-llm
 │
 ├── dataset/                # Email datasets
 │
-├── docs/                    #project documentation
-|
-|___server/                 # server and api related files
+├── docs/                   # Project documentation
 │
 ├── README.md
-└── .gitignore
+└── requirements.txt
+````
+
+---
+
+## Installation Guide
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/phishing-email-detector-llm.git
+cd phishing-email-detector-llm
+```
+
+### 2. Install Python Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Install Node Dependencies
+
+```bash
+cd client
+npm install
+```
+
+### 4. Start Backend Server
+
+```bash
+cd server
+python app.py
+```
+
+### 5. Start Frontend
+
+```bash
+cd client
+npm start
+```
+
+---
+
+## Dataset
+
+The datasets used in this project include:
+
+* **Enron Email Dataset** – Legitimate emails
+* **Nazario Phishing Corpus** – Phishing emails
+* **PhishTank Dataset**
+* **Kaggle Phishing Email Dataset**
+
+These datasets provide a balanced set of phishing and legitimate email samples for model training and evaluation.
+
+---
+
+## System Workflow
+
+1. User inputs or uploads an email.
+2. Email text is preprocessed and tokenized.
+3. The LLM model analyzes the semantic and contextual features.
+4. The system classifies the email as **Phishing** or **Legitimate**.
+5. The result is displayed with a confidence score.
+
+---
+
+## Performance Metrics
+
+| Metric    | Description                              |
+| --------- | ---------------------------------------- |
+| Accuracy  | Overall prediction accuracy              |
+| Precision | Correct phishing detections              |
+| Recall    | Ability to detect actual phishing emails |
+| F1 Score  | Balance between precision and recall     |
+| ROC-AUC   | Model classification performance         |
+
+---
+
+## Expected Outcome
+
+The final system will provide:
+
+* A trained phishing detection model
+* A working API for prediction
+* A simple web interface for testing
+* Evaluation reports and performance metrics
+
+---
+
+## Team Members
+
+| Name           | Student ID |
+| -------------- | ---------- |
+| Tashi Namgay   | CIHE241207 |
+| Gaki Palden    | CIHE240539 |
+| Melam Rabzang  | CIHE240648 |
+| Tandin Wangyel | CIHE240943 |
+
+---
+
+## Future Improvements
+
+* Integration with enterprise email systems
+* Real-time email monitoring
+* Explainable AI for highlighting suspicious text
+* Support for SMS and social media phishing detection
+
+---
+
+## License
+
+This project is developed for academic purposes as part of the Cyber Security Project course.
+
+```
+```
