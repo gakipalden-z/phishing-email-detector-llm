@@ -1,0 +1,8 @@
+./server/node_modules
+./server/env
+./server/dist
+./client/node_modules
+./client/env
+./mobile/node_modules
+./mobile/env
+./.vscode
