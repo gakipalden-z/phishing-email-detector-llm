@@ -61,7 +61,9 @@ phishing-email-detector-llm
 │
 ├── dataset/                # Email datasets
 │
-├── docs/                   # Project documentation
+├── docs/                    #project documentation
+|
+|___server/                 # server and api related files
 │
 ├── README.md
-└── requirements.txt
+└── .gitignore
